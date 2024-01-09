@@ -25,7 +25,7 @@
   display: none;
   align-items: center;
   background: none;
-  margin-left: 31%;
+  margin-left: 38%;
   margin-top: 50px;
 }
 
@@ -42,6 +42,7 @@
   border-radius: 10px;
   min-width: 300px;
   outline: solid 1px black;
+  display: block;
   justify-content: center;
 }
 button {
@@ -60,6 +61,10 @@ button {
   margin-bottom: 10px;
   
 }
+#flip{
+    display: flex;
+    justify-content: center;
+}
 
     </style>
     </head>
@@ -70,7 +75,7 @@ button {
             </div>
             <div class="flip">
                 <img id="coin" src alt="Coin">
-                <h3 class="toss"></h3>
+                <h2 class="toss"></h2>
                 <button onclick="flipCoin()">Flip Coin</button>
             </div>
         </div>
